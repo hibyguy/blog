@@ -1,5 +1,7 @@
 ---
 title: "Edge Case: Nested and Mixed Lists"
+header:
+  teaser: https://github.com/facebookresearch/Detectron/raw/master/demo/output/33823288584_1d21cf0a26_k_example_output.jpg"
 categories:
   - Coding
 tags:
@@ -13,6 +15,4 @@ check out this new project from facebook
 https://github.com/facebookresearch/Detectron
 
 
-
-* Lists within lists do not break the ordered list numbering order
-* Your list styles go deep enough.
+The goal of Detectron is to provide a high-quality, high-performance codebase for object detection research. It is designed to be flexible in order to support rapid implementation and evaluation of novel research. Detectron includes implementations of the following object detection algorithms:
