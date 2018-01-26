@@ -8,13 +8,12 @@ categories:
 tags:
   - content
   - open source
-link: https://github.com/facebookresearch/Detectron
 ---
 
 Hi i'm liam from the third year of the BSD program
 
 check out this new project from facebook
-[link](#)
+[https://github.com/facebookresearch/Detectron](#)
 
 
 The goal of Detectron is to provide a high-quality, high-performance codebase for object detection research. It is designed to be flexible in order to support rapid implementation and evaluation of novel research. Detectron includes implementations of the following object detection algorithms:
