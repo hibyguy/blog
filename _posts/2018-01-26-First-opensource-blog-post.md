@@ -1,10 +1,10 @@
 ---
-title: "Edge Case: Nested and Mixed Lists"
+title: "Open source: Facebooks new object detection algorithm"
 header:
   overlay_image: https://github.com/facebookresearch/Detectron/raw/master/demo/output/33823288584_1d21cf0a26_k_example_output.jpg
   teaser: https://github.com/facebookresearch/Detectron/raw/master/demo/output/33823288584_1d21cf0a26_k_example_output.jpg
 categories:
-  - Coding
+  - open source
 tags:
   - content
   - open source
