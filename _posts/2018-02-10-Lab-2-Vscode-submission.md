@@ -14,7 +14,7 @@ Visual Studio Code is a amazing program with great extentions! It is further adv
 
 Unfortunatly during my time with it I was barely able to launch it. However through numerous attempts I was able to get it to launch with the package installer. This meaning now extentions
 
-check out vsCode project 
+check out the vsCode project 
 [here](https://github.com/Microsoft/vscode)
 
 I need to do more research to get vsCode correctly launched on windows, but for now it functionally works alright as just an editor without extentions.
