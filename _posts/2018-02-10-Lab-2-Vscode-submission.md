@@ -1,5 +1,5 @@
 ---
-title: "Open source: Facebooks new object detection algorithm"
+title: "VsCode: my experience with getting this beast to launch the first time after about six times trying"
 header:
   overlay_image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Visual_Studio_Code_1.18_icon.svg/1200px-Visual_Studio_Code_1.18_icon.svg.png
   teaser: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Visual_Studio_Code_1.18_icon.svg/1200px-Visual_Studio_Code_1.18_icon.svg.png
