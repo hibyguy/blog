@@ -1,24 +1,33 @@
 ---
-title: "Markup: Syntax Highlighting"
+title: "First bugs: fixing get requests"
 excerpt: "Post displaying the various ways of highlighting code in Markdown."
-last_modified_at: 2018-01-03T09:45:06-05:00
+last_modified_at: 2018-02-22T09:45:06-05:00
 header:
   teaser: "assets/images/markup-syntax-highlighting-teaser.jpg"
+categories:
+  - bugs
 tags: 
   - code
-  - syntax highlighting
+  - node
+  - get-request
 toc: true
 ---
 
-Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.[^1]
+Fixing my first two bugs was a fun process, I really enjoyed delving into other people repositories. I think this process was needed and helped me understand open source even more.
 
-[^1]: <http://en.wikipedia.org/wiki/Syntax_highlighting>
 
-### GFM Code Blocks
 
-GitHub Flavored Markdown [fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/) are supported. To modify styling and highlight colors edit `/_sass/syntax.scss`.
+### MikeFainshtein's issue #2
 
-```css
+# Crashes when multiple phone numbers are in GET
+
+``My reaction to the problem``
+[![foo](http://prntscr.com/iiksxd)](http://prntscr.com/iiksxd)
+
+# My changes
+[![cats](http://prntscr.com/iil03s)](http://prntscr.com/iil03s)
+
+```js
 #container {
   float: left;
   margin: 0 -240px 0 0;
