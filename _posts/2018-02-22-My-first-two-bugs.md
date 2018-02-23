@@ -56,6 +56,10 @@ I removed line 60 because i was preprasing the in a try loop
 {% include gallery id="gallery2" caption="This is a second gallery example with images hosted externally." %}
 
 
-An example of a Gist embed below.
+My pull requests
 
-<script src="https://gist.github.com/mmistakes/77c68fbb07731a456805a7b473f47841.js"></script>
+#### YuriyKartuzov
+<script src="https://github.com/YuriyKartuzov/Project/pull/5/files"></script>
+
+#### mfainshtein2
+<script src="https://github.com/mfainshtein2/phoneparser-js/pull/3/files"></script>
