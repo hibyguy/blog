@@ -23,15 +23,14 @@ Fixing my first two bugs was a fun process, I really enjoyed delving into other 
 
 ### MikeFainshtein's issue #2
 
-# Crashes when multiple phone numbers are in GET
+#### Crashes when multiple phone numbers are in GET
 
-``My reaction to the problem``
-[![foo](http://prntscr.com/iiksxd)](http://prntscr.com/iiksxd)
-
-# My changes
-[![cats](http://prntscr.com/iil03s)](http://prntscr.com/iil03s)
+**My changes to the code**
 {% include gallery caption="This is a sample gallery with **Markdown support**." %}
+*I saw his current usage of is **findphonenumbers** could be more polymorhpic if the numbers were parsed before function call*
+On line 27 I decide to add a parser so the phonenumber could be evaluated by phonenumber.lib in smaller chunks
 
+I removed line 60 because i was preprasing the  in a try loop
 
 ```js
 #container {
