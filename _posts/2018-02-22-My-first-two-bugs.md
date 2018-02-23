@@ -11,6 +11,10 @@ tags:
   - node
   - get-request
 toc: true
+gallery:
+  - url: /assets/images/server.png
+    image_path: /assets/images/server.png
+    alt: "my large changes"
 ---
 
 Fixing my first two bugs was a fun process, I really enjoyed delving into other people repositories. I think this process was needed and helped me understand open source even more.
@@ -26,6 +30,8 @@ Fixing my first two bugs was a fun process, I really enjoyed delving into other 
 
 # My changes
 [![cats](http://prntscr.com/iil03s)](http://prntscr.com/iil03s)
+{% include gallery caption="This is a sample gallery with **Markdown support**." %}
+
 
 ```js
 #container {
