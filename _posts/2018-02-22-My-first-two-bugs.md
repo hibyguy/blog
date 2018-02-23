@@ -15,22 +15,31 @@ gallery:
   - url: /assets/images/server.png
     image_path: /assets/images/server.png
     alt: "my large changes"
+
+gallery2:
+  - url: /assets/images/app.png
+    image_path: /assets/images/app.png
+    alt: "my small changes"
 ---
 
 Fixing my first two bugs was a fun process, I really enjoyed delving into other people repositories. I think this process was needed and helped me understand open source even more.
 
 
 
-### MikeFainshtein's issue #2
+### YuriyKartuzov's issue #3
 
 #### Crashes when multiple phone numbers are in GET
 
-**My changes to the code**
+##### My changes to the code
 {% include gallery caption="This is a sample gallery with **Markdown support**." %}
-*I saw his current usage of is **findphonenumbers** could be more polymorhpic if the numbers were parsed before function call*
+I saw his current usage of is **findphonenumbers** could be more polymorhpic if the numbers were parsed before function call
+
+
 On line 27 I decide to add a parser so the phonenumber could be evaluated by phonenumber.lib in smaller chunks
 
-I removed line 60 because i was preprasing the  in a try loop
+
+I removed line 60 because i was preprasing the in a try loop
+
 
 ```js
 #container {
@@ -40,101 +49,12 @@ I removed line 60 because i was preprasing the  in a try loop
 }
 ```
 
-{% highlight scss %}
-.highlight {
-  margin: 0;
-  padding: 1em;
-  font-family: $monospace;
-  font-size: $type-size-7;
-  line-height: 1.8;
-}
-{% endhighlight %}
+### MikeFainshtein's issue #2
 
-```html
-{% raw %}<nav class="pagination" role="navigation">
-  {% if page.previous %}
-    <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
-  {% endif %}
-  {% if page.next %}
-    <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
-  {% endif %}
-</nav><!-- /.pagination -->{% endraw %}
-```
+#### You can add as many phone numbers in get request object
 
-```ruby
-module Jekyll
-  class TagIndex < Page
-    def initialize(site, base, dir, tag)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = 'index.html'
-      self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
-      self.data['tag'] = tag
-      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
-      tag_title_suffix = site.config['tag_title_suffix'] || '&#8211;'
-      self.data['title'] = "#{tag_title_prefix}#{tag}"
-      self.data['description'] = "An archive of posts tagged #{tag}."
-    end
-  end
-end
-```
+{% include gallery id="gallery2" caption="This is a second gallery example with images hosted externally." %}
 
-### Code Blocks in Lists
-
-Indentation matters. Be sure the indent of the code block aligns with the first non-space character after the list item marker (e.g., `1.`). Usually this will mean indenting 3 spaces instead of 4.
-
-1. Do step 1.
-2. Now do this:
-   
-   ```ruby
-   def print_hi(name)
-     puts "Hi, #{name}"
-   end
-   print_hi('Tom')
-   #=> prints 'Hi, Tom' to STDOUT.
-   ```
-        
-3. Now you can do this.
-
-### Jekyll Highlight Tag
-
-An example of a code blocking using Jekyll's [`{% raw %}{% highlight %}{% endraw %}` tag](https://jekyllrb.com/docs/templates/#code-snippet-highlighting).
-
-{% highlight javascript linenos %}
-// 'gulp html' -- does nothing
-// 'gulp html --prod' -- minifies and gzips HTML files for production
-gulp.task('html', () => {
-  return gulp.src(paths.siteFolderName + paths.htmlPattern)
-    .pipe(when(argv.prod, htmlmin({
-      removeComments: true,
-      collapseWhitespace: true,
-      collapseBooleanAttributes: false,
-      removeAttributeQuotes: false,
-      removeRedundantAttributes: false,
-      minifyJS: true,
-      minifyCSS: true
-    })))
-    .pipe(when(argv.prod, size({title: 'optimized HTML'})))
-    .pipe(when(argv.prod, gulp.dest(paths.siteFolderName)))
-    .pipe(when(argv.prod, gzip({append: true})))
-    .pipe(when(argv.prod, size({
-      title: 'gzipped HTML',
-      gzip: true
-    })))
-    .pipe(when(argv.prod, gulp.dest(paths.siteFolderName)))
-});
-{% endhighlight %}
-
-{% highlight wl linenos %}
-Module[{},
-  Sqrt[2]
-  4
-]
-{% endhighlight %}
-
-### GitHub Gist Embed
 
 An example of a Gist embed below.
 
