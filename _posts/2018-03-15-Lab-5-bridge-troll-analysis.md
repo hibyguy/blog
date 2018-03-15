@@ -2,19 +2,22 @@
 title: "Bridge Troll Analysis"
 excerpt: "My take on the bridge troll issue"
 header:
-  overlay_image: "assets/images/lab5spoiler.png"
-  teaser: "assets/images/lab5spoiler.png"
+  teaser: "/assets/images/lab5spoiler.png"
+  overlay_image: "/assets/images/lab5spoiler.png"
 categories:
   - bugs
 tags:
   - lab5
   - open source
+toc: true
 gallery:
   - url: /assets/images/timelogic.png
-  - image_path: /assets/images/timelogic.png
+  image_path: /assets/images/timelogic.png
+  alt: "my large changes"
 gallery2:
   - url: /assets/images/ifstatement.png
-  - image_path: /assets/images/ifstatement.png
+  image_path: /assets/images/ifstatement.png
+  alt: "my large changes"
 ---
 
 I ran into a few problems during the period of this assignment, that included not being able to pan the map as well eslint wouldn't compile on one version of windows i was on(Didn't work on school computer worked well on my personally)
