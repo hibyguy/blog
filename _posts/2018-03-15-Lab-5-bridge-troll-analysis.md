@@ -11,10 +11,10 @@ tags:
   - open source
 gallery:
   - url: /assets/images/timelogic.png
-    image_path: /assets/images/timelogic.png
+  - image_path: /assets/images/timelogic.png
 gallery2:
 - url: /assets/images/ifstatement.png
-image_path: /assets/images/ifstatement.png
+  - image_path: /assets/images/ifstatement.png
 ---
 
 I ran into a few problems during the period of this assignment, that included not being able to pan the map as well eslint wouldn't compile on one version of windows i was on(Didn't work on school computer worked well on my personally)
