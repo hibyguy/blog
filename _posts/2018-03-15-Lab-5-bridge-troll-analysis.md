@@ -1,13 +1,19 @@
 ---
-title: "Bridge Troll Issue fix"
+title: "Bridge Troll Analysis"
 header:
-  overlay_image: http://prntscr.com/irpljt
-  teaser: http://prntscr.com/irpljt
+  overlay_image: "assets/images/lab5spoiler.png"
+  teaser: "assets/images/lab5spoiler.png"
 categories:
   - bugs
 tags:
   - lab5
   - open source
+gallery:
+  - url: /assets/images/timelogic.png
+    image_path: /assets/images/timelogic.png
+gallery2:
+- url: /assets/images/ifstatement.png
+image_path: /assets/images/ifstatement.png
 ---
 
 I ran into a few problems during the period of this assignment, that included not being able to pan the map as well eslint wouldn't compile on one version of windows i was on(Didn't work on school computer worked well on my personally)
@@ -20,7 +26,6 @@ First, what I did was understand your code base. Second, I was asked you a bunch
 
 Changes:
 Addition of time logic
-[![TimeLogic](http://prntscr.com/irq1ke)](https://flic.kr/p/8ww3fZ)
-
+{% include gallery caption="This is a sample gallery with **Markdown support**." %}
 If statement:
-[![IfBlock](http://prntscr.com/irq1zk)](https://flic.kr/p/8ww3fZ)
+{% include gallery2 caption="This is a sample gallery with **Markdown support**." %}
