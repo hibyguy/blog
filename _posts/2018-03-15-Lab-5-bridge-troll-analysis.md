@@ -13,7 +13,7 @@ gallery:
   - url: /assets/images/timelogic.png
   - image_path: /assets/images/timelogic.png
 gallery2:
-- url: /assets/images/ifstatement.png
+  - url: /assets/images/ifstatement.png
   - image_path: /assets/images/ifstatement.png
 ---
 
