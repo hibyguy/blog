@@ -1,5 +1,5 @@
 ---
-title: "Bridge Troll Analysis"
+title: "Bridge Troll Issue fix"
 header:
   overlay_image: http://prntscr.com/irpljt
   teaser: http://prntscr.com/irpljt
@@ -23,4 +23,4 @@ Addition of time logic
 [![TimeLogic](http://prntscr.com/irq1ke)](https://flic.kr/p/8ww3fZ)
 
 If statement:
-[![TimeLogic](http://prntscr.com/irq1zk)](https://flic.kr/p/8ww3fZ)
+[![IfBlock](http://prntscr.com/irq1zk)](https://flic.kr/p/8ww3fZ)
