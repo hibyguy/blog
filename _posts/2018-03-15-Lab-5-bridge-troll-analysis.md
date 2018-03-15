@@ -1,5 +1,6 @@
 ---
 title: "Bridge Troll Analysis"
+excerpt: "My take on the bridge troll issue"
 header:
   overlay_image: "assets/images/lab5spoiler.png"
   teaser: "assets/images/lab5spoiler.png"
@@ -24,8 +25,8 @@ The technologies I used were fairly simple, I added an new switch to the intiali
 
 First, what I did was understand your code base. Second, I was asked you a bunch of questions on how to get started.
 
-Changes:
-Addition of time logic
+# Changes:
+## Addition of time logic
 {% include gallery caption="This is a sample gallery with **Markdown support**." %}
-If statement:
-{% include gallery2 caption="This is a sample gallery with **Markdown support**." %}
+## If statement:
+{% include gallery id="gallery2" caption="This is a sample gallery with **Markdown support**." %}
