@@ -7,7 +7,7 @@ tags:
   - Open Source
 gallery:
 - url: /assets/images/bug-page.png
-- image_path: /assets/images/bug-page.png
+- image_path: /assets/images/page.png
 ---
 # Intro
 Writing my first issue fix was alot of fun! I did so on the opensouce project Jnes built in react!
