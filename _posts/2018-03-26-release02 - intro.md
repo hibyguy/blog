@@ -21,4 +21,6 @@ At first looking for a repo for me was daunting; I had never done it before. The
 I looked through his bugs and found one I could possibly do; "a two player control scheme implementation" I thought sounds fun, the fun stopped there. I was then thrown right into his code, clearly composed of industry level patterns and thinking; I had to be like him. So I started watching a bunch of tutorials on react to somewhat get up to speed with his ways of programming. once i was done that I worked on my actual implementation. Surprisingly, it wasn't crazy hard but it did take a bit of time and many different tries and approaches.
 
 # [The Bug](https://github.com/bfirsh/jsnes-web/issues/65)
+
+
 {% include gallery caption="" %}
