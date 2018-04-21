@@ -20,10 +20,10 @@ gallery3:
 gallery4:
   - url: /assets/images/finalversion.png
     image_path: /assets/images/finalversion.png
-  - url: /assets/images/controls-addition1.png
-    image_path: /assets/images/controls-addition1.png
-  - url: /assets/images/controls-addition2.png
-    image_path: /assets/images/controls-additon2.png
+  - url: /assets/images/alt-controls-addition1.png
+    image_path: /assets/images/alt-controls-addition1.png
+  - url: /assets/images/alt-controls-addition2.png
+    image_path: /assets/images/alt-controls-additon2.png
 gallery5:
   - url: /assets/images/release02pr.png
     image_path: /assets/images/release02pr.png
