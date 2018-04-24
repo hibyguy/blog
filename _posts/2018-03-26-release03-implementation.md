@@ -28,3 +28,37 @@ gallery5:
   - url: /assets/images/release02pr.png
     image_path: /assets/images/release02pr.png
 ---
+
+# Beginnings
+
+The first I did before starting was the project was ask Ben Firshman first if I could work on it
+
+{% include gallery caption="the first inquiry" %}
+
+It was a yes so I forked the project.
+
+# Idea Bouncing
+
+During the my time programming Ben and I stayed in close touch, with me consitantly asking questions and looking for guidance on my build.
+
+{% include gallery id="gallery1" caption="banter between me and the creator" %}
+
+# Idea Bouncing: Conclusion
+
+Ben an I came to a solution when I suggested a check box
+
+{% include gallery id="gallery2" caption="final conclusion of our discussion" %}
+
+Ben liked this suggestion so we went with it and during, he requested some code changes
+
+{% include gallery id="gallery3" caption="final conclusion of our discussion" %}
+
+# Final Product
+
+{% include gallery id="gallery4" caption="final conclusion of our discussion" %}
+
+This is the final product!
+
+# [Pull Request](https://github.com/bfirsh/jsnes-web/pull/69)
+
+{% include gallery id="gallery5" caption="my release i gave him" %}
