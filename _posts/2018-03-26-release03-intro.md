@@ -1,5 +1,5 @@
 ---
-title: "My first real world bug fix!"
+title: "Release 0.3: Intro"
 categories:
   - bugs
 tags:

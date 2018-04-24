@@ -1,5 +1,5 @@
 ---
-title: "Release: My first real world bug fix!"
+title: "Release 0.3: Implementation"
 categories:
   - bugs
 tags:
@@ -39,7 +39,7 @@ It was a yes so I forked the project.
 
 # Idea Bouncing
 
-During the my time programming Ben and I stayed in close touch, with me consistently asking questions and looking for guidance on my build.
+During the my time programming Ben and I stayed in close touch, with me constantly asking questions and looking for guidance on my build.
 
 {% include gallery id="gallery1" caption="banter between me and the creator" %}
 

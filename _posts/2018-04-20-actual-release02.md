@@ -1,5 +1,5 @@
 ---
-title: "Bridge Troll Analysis"
+title: "Release 0.2"
 header:
   overlay_image: "/assets/images/lab5spoiler.png"
   teaser: "/assets/images/lab5spoiler.png"
