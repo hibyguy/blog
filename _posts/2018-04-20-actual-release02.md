@@ -6,30 +6,33 @@ header:
 categories:
   - bugs
 tags:
-  - lab5
+  - release02
   - open source
 gallery:
-  - url: /assets/images/timelogic.png
-  - image_path: /assets/images/timelogic.png
+  - url: /assets/images/notepad++-issue.png
+    image_path: /assets/images/notepad++-issue.png
+  - url: /assets/images/notepad++-pull.png
+    image_path: /assets/images/notepad++-pull.png
+
 gallery2:
-  - url: /assets/images/ifstatement.png
-  - image_path: /assets/images/ifstatement.png
+  - url: /assets/images/rr-issue.png
+    image_path: /assets/images/rr-issue.png
+  - url: /assets/images/rr-pull.png
+    image_path: /assets/images/rr-pull.png
 ---
 
-For my release 2 (which I actually did in reverse)
+For my release 2 (which I actually did in reverse) I decided to work on two other projects that would interest me that were more focused in the industry besides gaming starting out with Notepad++
 
-I can't say I learned a lot of new concepts on this lab but I did improve my skils with npm(with my use of suncalc) packages in the code.
+# Bugs:
 
-The technologies I used were fairly simple, I added an new switch to the intialization which allowed it to process the current time in perspective of your longlatude and latitude and predict the amount of sunlight. Using this i can have the program ask the time of day then change the UI to better suit the eyes for the time(night time dark UI day time light UI).
-
-First, what I did was understand your code base. Second, I was asked you a bunch of questions on how to get started.
-
-# Changes:
-
-## Addition of time logic
+## Notepad++
 
 {% include gallery caption="" %}
 
-## If statement:
+There was a small issue with the grammar involved in the xml file, resulting in the production version containing a wrong french translation. Oddly, after fixing the issue the original user actually did a pull request over mine, then someone else even corrected his!
+
+## Mozilla:
 
 {% include gallery id="gallery2" caption="" %}
+
+The mozilla bug was more of interesting bug, meaning, it actually evolved a bit of engagement in my part(partially). The mozilla issue was that of manual memory management the fact the devs would like to remove the use of malloc and xmalloc in there code, and instead, replace it with new and delete. After much back and forth between me and devs I was able to come to conclusion of not formating and complete deletion instead of deprecation of the functions involved.
