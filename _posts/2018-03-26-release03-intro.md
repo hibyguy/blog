@@ -3,11 +3,11 @@ title: "My first real world bug fix!"
 categories:
   - bugs
 tags:
-  - release 0.2
+  - release 03
   - Open Source
 gallery:
 - url: /assets/images/bug-page.png
-- image_path: /assets/images/bug-page.png
+  image_path: /assets/images/bug-page.png
 ---
 
 # Intro
